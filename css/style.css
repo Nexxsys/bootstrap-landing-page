@@ -127,3 +127,64 @@ p, h1 {
 .press .press-logo li:hover img {
   opacity: 1;
 }
+
+/* SCREENSHOTS */
+
+.screenshots {
+  background-color: #235178;
+  padding: 90px 0 90px 0;
+  color: white;
+  text-align: center;
+}
+
+.screenshots img {
+  padding: 25px 0 25px 0;
+}
+
+.screenshots h1 {
+  font-size: 2em;
+}
+
+/* REVIEWS */
+
+.reviews {
+  padding: 90px 0 90px 0;
+  text-align: center;
+
+}
+
+.reviews h1 {
+  font-size: 2em;
+  padding-bottom: 20px;
+  color: #337ab7;
+}
+
+.reviews p {
+  padding-bottom: 35px;
+}
+
+.reviews .line2 {
+  padding-top: 30px;
+}
+
+
+/* BUY */
+
+.buy {
+  padding: 100px 0 100px 0;
+  background-color: #1c3f5c;
+  color: white;
+  text-align: center;
+}
+
+.buy h1 {
+  font-size: 2em;
+  padding-bottom: 25px;
+  color: white;
+}
+
+.buy button {
+  background: transparent;
+  border: none;
+  padding-top: 25px;
+}
