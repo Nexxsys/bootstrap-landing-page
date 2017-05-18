@@ -17,6 +17,7 @@
     <!-- GOOGLE FONTS / FONT AWESOME-->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <!-- FONT AWESOME-->
+    <link rel="stylesheet" href="css/animate.min.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -63,7 +64,7 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInLeft">
             <h1>Welcome</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus condimentum lorem ut justo gravida porttitor. Sed sed ipsum at eros pharetra ullamcorper. Sed ac est ac elit scelerisque venenatis. Vestibulum non urna ipsum. Proin iaculis bibendum tellus, ac venenatis eros lacinia sit amet. Mauris euismod, velit commodo volutpat aliquam, leo odio tincidunt nulla, quis interdum leo sem non tellus. Etiam et orci et nunc tincidunt mattis a varius leo. Nullam in rutrum lectus.</p>
             <p>Duis elementum condimentum tristique. Fusce ut aliquet tortor, eu pharetra felis. Vestibulum pellentesque sapien at quam iaculis dapibus. Etiam sed molestie nisl. Curabitur venenatis est ipsum, vel pellentesque metus euismod et. Cras mollis sem at odio pellentesque ornare. Vivamus ultrices lorem egestas augue eleifend volutpat. In euismod diam urna, sed ultrices ligula tristique hendrerit. </p>
@@ -73,7 +74,7 @@
               <li><a href="#" class="btn btn-primary btn-md"> Read Reviews</a></li>
             </ul>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" align="center">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInRight" align="center">
             <img class="img-responsive" src="img/devices.png"/>
           </div>
         </div>
@@ -88,8 +89,8 @@
 
         <div class="row">
           <div class="col-lg-12 col-md-12">
-            <h1>'This app will help you connect with people'</h1>
-            <p><em>Proin nisl sapien, malesuada at feugiat eget, sollicitudin vel orci. Nunc interdum tellus sit amet dolor accumsan pellentesque. Suspendisse quis mi nisi. Vivamus vitae ipsum leo. Praesent velit nisi, sodales sed leo in, aliquet finibus ligula. Suspendisse dolor leo, sagittis quis diam sed, tincidunt vestibulum sapien. Cras eu congue lectus. Etiam quis leo felis. Duis fermentum metus odio, sed rutrum nisi tincidunt a. Maecenas et maximus velit, placerat malesuada sem. Maecenas mauris dui, lacinia et nulla nec, finibus porta nunc. In feugiat est pretium augue convallis maximus. Pellentesque eget pulvinar justo.</em></p>
+            <h1 class="wow fadeIn" data-wow-delay="0.4s">'This app will help you connect with people'</h1>
+            <p class="wow fadeIn" data-wow-delay="0.8s"><em>Proin nisl sapien, malesuada at feugiat eget, sollicitudin vel orci. Nunc interdum tellus sit amet dolor accumsan pellentesque. Suspendisse quis mi nisi. Vivamus vitae ipsum leo. Praesent velit nisi, sodales sed leo in, aliquet finibus ligula. Suspendisse dolor leo, sagittis quis diam sed, tincidunt vestibulum sapien. Cras eu congue lectus. Etiam quis leo felis. Duis fermentum metus odio, sed rutrum nisi tincidunt a. Maecenas et maximus velit, placerat malesuada sem. Maecenas mauris dui, lacinia et nulla nec, finibus porta nunc. In feugiat est pretium augue convallis maximus. Pellentesque eget pulvinar justo.</em></p>
           </div>
         </div>
 
@@ -101,17 +102,17 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-4 col-md-4">
+          <div class="col-lg-4 col-md-4 wow fadeIn" data-wow-delay="0.3s"">
             <img src="img/face1.jpg" class="img-circle">
             <blockquote><p><em>"Maecenas mauris dui, lacinia et nulla nec, finibus porta nunc"<footer>J.Doe - Things</footer></em></p></blockquote>
           </div>
 
-          <div class="col-lg-4 col-md-4">
+          <div class="col-lg-4 col-md-4 wow fadeIn" data-wow-delay="0.5s"">
             <img src="img/face2.jpg" class="img-circle">
             <blockquote><p><em>"Maecenas mauris dui, lacinia et nulla nec, finibus porta nunc"<footer>J.Doe - Things</footer></em></p></blockquote>
           </div>
 
-          <div class="col-lg-4 col-md-4">
+          <div class="col-lg-4 col-md-4 wow fadeIn" data-wow-delay="0.7s"">
             <img src="img/face3.jpg" class="img-circle">
             <blockquote><p><em>"Praesent velit nisi, sodales sed leo in, aliquet finibus ligula. "<footer>J.Doe - Things</footer></em></p></blockquote>
           </div>
@@ -392,5 +393,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>

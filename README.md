@@ -13,6 +13,11 @@ http://fontawesome.io/
 
 Animate CSS
 https://daneden.github.io/animate.css/
+https://github.com/daneden/animate.css
+
+Wow.js
+https://wowjs.uk/
+https://github.com/graingert/wow
 
 Google fonts
 https://fonts.google.com/
