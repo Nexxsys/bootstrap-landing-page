@@ -25,10 +25,10 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#myNavbar" data-offset="70">
 
     <!-- NAVBAR -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div id="myNavbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -44,13 +44,13 @@
 
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Press</a></li>
-            <li><a href="#">Screens</a></li>
-            <li><a href="#">Reviews</a></li>
-            <li><a href="#">Download</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#press">Press</a></li>
+            <li><a href="#screens">Screens</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#download">Download</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
 
@@ -84,7 +84,7 @@
     <!-- END HEADER -->
 
     <!-- ABOUT -->
-    <div class="about">
+    <div class="about" id="about">
       <div class="container">
 
         <div class="row">
@@ -102,17 +102,17 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-4 col-md-4 wow fadeIn" data-wow-delay="0.3s"">
+          <div class="col-lg-4 col-md-4 wow fadeIn" data-wow-delay="0.3s">
             <img src="img/face1.jpg" class="img-circle">
             <blockquote><p><em>"Maecenas mauris dui, lacinia et nulla nec, finibus porta nunc"<footer>J.Doe - Things</footer></em></p></blockquote>
           </div>
 
-          <div class="col-lg-4 col-md-4 wow fadeIn" data-wow-delay="0.5s"">
+          <div class="col-lg-4 col-md-4 wow fadeIn" data-wow-delay="0.5s">
             <img src="img/face2.jpg" class="img-circle">
             <blockquote><p><em>"Maecenas mauris dui, lacinia et nulla nec, finibus porta nunc"<footer>J.Doe - Things</footer></em></p></blockquote>
           </div>
 
-          <div class="col-lg-4 col-md-4 wow fadeIn" data-wow-delay="0.7s"">
+          <div class="col-lg-4 col-md-4 wow fadeIn" data-wow-delay="0.7s">
             <img src="img/face3.jpg" class="img-circle">
             <blockquote><p><em>"Praesent velit nisi, sodales sed leo in, aliquet finibus ligula. "<footer>J.Doe - Things</footer></em></p></blockquote>
           </div>
@@ -126,7 +126,7 @@
     <!-- END ABOUT -->
 
     <!-- FEATURES -->
-    <div class="features">
+    <div class="features" id="features">
       <div class="container">
 
         <div class="row">
@@ -177,7 +177,7 @@
 
     <!-- END FEATURES -->
     <!-- PRESS -->
-    <div class="press">
+    <div class="press" id="press">
       <div class="container">
 
         <div class="row">
@@ -223,7 +223,7 @@
 
     <!-- END PRESS -->
     <!--  SCREENSHOTS -->
-    <div class="screenshots">
+    <div class="screenshots" id="screens">
       <div class="container">
 
         <div class="row">
@@ -234,16 +234,16 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 wow flipInY" data-wow-delay="0.2s">
             <img class="img-responsive" src="img/screenshots/profile-home.jpg"/>
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 wow flipInY" data-wow-delay="0.3s">
             <img class="img-responsive" src="img/screenshots/photostream.jpg"/>
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 wow flipInY" data-wow-delay="0.5s">
             <img class="img-responsive" src="img/screenshots/messenger-overview.jpg"/>
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 wow flipInY" data-wow-delay="0.7s">
             <img class="img-responsive" src="img/screenshots/weather.jpg"/>
           </div>
         </div>
@@ -255,7 +255,7 @@
     <!-- END SCREENSHOTS -->
 
     <!-- REVIEWS -->
-    <div class="reviews">
+    <div class="reviews" id="reviews">
       <div class="container">
 
         <div class="row">
@@ -294,7 +294,7 @@
     <!-- END REVIEWS -->
 
     <!-- BUY ONLINE SECTION -->
-    <div class="buy">
+    <div class="buy" id="download">
       <div class="container">
         <div class="row">
         <div class="col-lg-12 col-md-12">
@@ -319,7 +319,7 @@
     </div>
     <!-- END BUY ONLINE SECTION -->
 
-    <div class="contact">
+    <div class="contact" id="contact">
     		<div class="container">
 
     			<div class="row">
